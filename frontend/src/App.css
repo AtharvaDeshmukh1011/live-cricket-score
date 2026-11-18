@@ -76,6 +76,7 @@ h3 { font-size: 15px; margin: 0 0 10px; }
 .badge.scheduled { background: #dbeafe; color: #1d4ed8; }
 .badge.completed { background: #e2e8f0; color: #334155; }
 @keyframes pulse { 50% { opacity: .65; } }
+@media (prefers-reduced-motion: reduce) { .badge.live { animation: none; } .match-card { transition: none; } }
 
 .team-line { display: flex; align-items: center; gap: 8px; padding: 4px 0; }
 .team-line .team-name { color: #64748b; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
