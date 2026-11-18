@@ -28,7 +28,7 @@ import static com.cricket.live.service.MatchMapper.plural;
 @RequiredArgsConstructor
 public class ScoringService {
     private static final String[] FOURS = {"%s drives it through the covers", "%s pulls it hard to the fence",
-            "%s cuts it past point", "%s flicks it off the pads to the boundary"};
+            "%s cuts it past point", "%s flicks it off the pads to the boundary", "%s guides it past the keeper for four"};
     private static final String[] SIXES = {"%s launches it over long-on", "%s clears deep midwicket with ease",
             "%s lofts it straight back over the bowler", "%s slogs it into the stands"};
     private static final String[] DOTS = {"no run, solid defence", "beaten outside off!", "straight to the fielder, no run",
