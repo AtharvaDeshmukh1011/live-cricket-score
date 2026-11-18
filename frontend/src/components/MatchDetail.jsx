@@ -126,7 +126,7 @@ export default function MatchDetail({ id, update }) {
   }, [detail]);
 
   if (error && !detail) return <div className="alert">{error}</div>;
-  if (!detail) return <p className="muted">Loading match...</p>;
+  if (!detail) return <p className="muted">Loading match details...</p>;
 
   const { summary: s, innings, recentBalls, commentary } = detail;
   const shownNo = tab ?? s.currentInnings ?? 1;
