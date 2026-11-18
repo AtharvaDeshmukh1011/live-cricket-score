@@ -32,7 +32,7 @@ public class ScoringService {
     private static final String[] SIXES = {"%s launches it over long-on", "%s clears deep midwicket with ease",
             "%s lofts it straight back over the bowler", "%s slogs it into the stands", "%s hits it out of the ground"};
     private static final String[] DOTS = {"no run, solid defence", "beaten outside off!", "straight to the fielder, no run",
-            "left alone outside off"};
+            "left alone outside off", "good length, defended back to the bowler"};
 
     private final MatchRepository matches;
     private final InningsRepository inningsRepo;
