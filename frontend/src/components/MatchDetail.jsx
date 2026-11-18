@@ -183,7 +183,7 @@ export default function MatchDetail({ id, update }) {
           {s.status === 'LIVE' && <ScorerPanel s={s} onDone={load} />}
           <div className="card">
             <h3>Commentary</h3>
-            {commentary.length === 0 && <p className="muted">No deliveries yet.</p>}
+            {commentary.length === 0 && <p className="muted">No deliveries bowled yet.</p>}
             <ul className="commentary">
               {commentary.map((c) => (
                 <li key={c.id} className={c.wicket ? 'wkt' : ''}>
