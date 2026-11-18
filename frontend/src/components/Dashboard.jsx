@@ -73,7 +73,7 @@ export default function Dashboard({ updates, connected }) {
         <div className="stat"><b>{upcoming.length}</b><span>Upcoming</span></div>
         <div className="stat"><b>{results.length}</b><span>Completed</span></div>
       </div>
-      {section('Live matches', live, 'No match is live right now.')}
+      {section('Live matches', live, 'No match is live right now. Check the upcoming fixtures below.')}
       {section('Upcoming', upcoming, 'No upcoming fixtures.')}
       {section('Results', results, 'No completed matches yet.')}
     </>
