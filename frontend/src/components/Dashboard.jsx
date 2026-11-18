@@ -67,7 +67,7 @@ export default function Dashboard({ updates, connected }) {
 
   return (
     <>
-      {error && <div className="alert">Could not reach the score server: {error}. Is the Spring Boot backend running on port 8080?</div>}
+      {error && <div className="alert">Could not reach the score server: {error}. Make sure the Spring Boot backend is running on port 8080.</div>}
       <div className="stats-row">
         <div className="stat"><b>{live.length}</b><span>Live now</span></div>
         <div className="stat"><b>{upcoming.length}</b><span>Upcoming</span></div>
