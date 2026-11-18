@@ -43,7 +43,7 @@ public class LiveUpdateService {
     public void heartbeat() {
         for (SseEmitter emitter : emitters) {
             try {
-                emitter.send(SseEmitter.event().comment("ping"));
+                emitter.send(SseEmitter.event().comment("keep-alive"));
             } catch (Exception e) {
                 emitters.remove(emitter);
             }
