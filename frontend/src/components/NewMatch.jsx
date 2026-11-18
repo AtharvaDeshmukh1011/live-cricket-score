@@ -33,7 +33,7 @@ export default function NewMatch() {
 
   return (
     <form className="card form" onSubmit={submit}>
-      <h2>Create a match</h2>
+      <h2>Create a new match</h2>
       <div className="form-grid">
         <label>Team A
           <select value={form.teamAId} onChange={set('teamAId')}>{teams.map((t) => <option key={t.id} value={t.id}>{t.name}</option>)}</select>
