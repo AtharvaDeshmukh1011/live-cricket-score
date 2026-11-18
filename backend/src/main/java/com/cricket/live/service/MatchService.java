@@ -22,7 +22,7 @@ import java.util.*;
 public class MatchService {
     public static final List<String> VENUES = List.of("Wankhede Stadium, Mumbai", "Eden Gardens, Kolkata",
             "M. Chinnaswamy Stadium, Bengaluru", "MA Chidambaram Stadium, Chennai", "Arun Jaitley Stadium, Delhi",
-            "Rajiv Gandhi Stadium, Hyderabad", "MCA Stadium, Pune");
+            "Rajiv Gandhi Stadium, Hyderabad", "MCA Stadium, Pune", "Narendra Modi Stadium, Ahmedabad");
 
     // live first, then upcoming (soonest first), then results (most recent first)
     private static final Comparator<CricketMatch> DISPLAY_ORDER = Comparator
