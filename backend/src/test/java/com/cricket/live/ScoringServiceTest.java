@@ -74,6 +74,8 @@ class ScoringServiceTest {
         Long id = newMatch(2);
         assertThrows(IllegalArgumentException.class,
                 () -> scoring.recordBall(id, new BallRequest(0, Extra.NO_BALL, true, Dismissal.BOWLED)));
+        assertThrows(IllegalArgumentException.class,
+                () -> scoring.recordBall(id, new BallRequest(0, Extra.BYE, false, null)));
     }
 
     @Test
