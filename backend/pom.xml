@@ -15,7 +15,7 @@
     <artifactId>live-cricket</artifactId>
     <version>1.0.0</version>
     <name>live-cricket</name>
-    <description>Real-time cricket score management system (Spring Boot + React)</description>
+    <description>Real-time cricket score management system with live updates (Spring Boot + React)</description>
 
     <properties>
         <java.version>21</java.version>
