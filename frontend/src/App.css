@@ -120,6 +120,7 @@ th, td { padding: 8px 6px; text-align: right; border-bottom: 1px solid #f1f5f9; 
 th { font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: .04em; }
 .left { text-align: left; }
 td.left { white-space: normal; }
+tbody tr:hover { background: #f8fafc; }
 tr.active-row { background: #ecfdf5; }
 tr.sub td { color: #475569; }
 tr.total td { font-weight: 700; border-bottom: 2px solid #e2e8f0; }
