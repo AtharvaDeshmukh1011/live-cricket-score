@@ -31,7 +31,7 @@ public class MatchController {
     @GetMapping("/{id}/commentary")
     public List<BallDto> commentary(@PathVariable Long id,
                                     @RequestParam(defaultValue = "0") int page,
-                                    @RequestParam(defaultValue = "30") int size) {
+                                    @RequestParam(defaultValue = "40") int size) {
         return matchService.commentary(id, page, size);
     }
 
