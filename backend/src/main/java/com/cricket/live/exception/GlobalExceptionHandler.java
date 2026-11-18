@@ -2,6 +2,7 @@ package com.cricket.live.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.http.converter.HttpMessageNotReadableException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
@@ -27,6 +28,11 @@ public class GlobalExceptionHandler {
         String msg = e.getBindingResult().getFieldErrors().stream()
                 .map(f -> f.getField() + " " + f.getDefaultMessage()).findFirst().orElse("Invalid request");
         return error(HttpStatus.BAD_REQUEST, msg);
+    }
+
+    @ExceptionHandler(HttpMessageNotReadableException.class)
+    public ResponseEntity<Map<String, String>> unreadable(HttpMessageNotReadableException e) {
+        return error(HttpStatus.BAD_REQUEST, "Malformed JSON request");
     }
 
     @ExceptionHandler(IllegalStateException.class)
