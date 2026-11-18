@@ -29,7 +29,7 @@ export default function PlayerStats({ updates }) {
           ))}
         </div>
       </div>
-      <p className="muted small">Career totals across every match on the platform, updated live.</p>
+      <p className="muted small">Career totals across every match on the platform. The table refreshes automatically.</p>
       {error && <div className="alert">{error}</div>}
       <div className="card table-wrap">
         <table>
