@@ -34,7 +34,7 @@ public class DataSeeder implements CommandLineRunner {
             "Siddharth", "Karan", "Aditya", "Yash", "Nikhil", "Pranav", "Harsh", "Manav", "Aryan", "Varun", "Kunal",
             "Rishi", "Tanmay", "Sahil", "Ayaan", "Rudra", "Neel", "Parth", "Dhruv", "Shaurya", "Vihaan", "Om", "Advait", "Atharva"};
     private static final String[] LAST = {"Sharma", "Patil", "Iyer", "Khan", "Reddy", "Nair", "Singh", "Deshmukh",
-            "Kulkarni", "Menon", "Gill", "Pandey", "Joshi", "Rao", "Chauhan", "Bhat", "Shetty", "Verma", "Mishra", "Kapoor"};
+            "Kulkarni", "Menon", "Gill", "Pandey", "Joshi", "Rao", "Chauhan", "Bhat", "Shetty", "Verma", "Mishra", "Kapoor", "Gaikwad"};
     private static final Role[] ROLES = {Role.BATTER, Role.BATTER, Role.BATTER, Role.BATTER, Role.WICKET_KEEPER,
             Role.ALL_ROUNDER, Role.ALL_ROUNDER, Role.BOWLER, Role.BOWLER, Role.BOWLER, Role.BOWLER};
     private static final int[] BATTING = {84, 80, 82, 76, 72, 66, 60, 40, 34, 28, 24};
