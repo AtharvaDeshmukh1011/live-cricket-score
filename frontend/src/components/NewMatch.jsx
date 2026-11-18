@@ -42,7 +42,7 @@ export default function NewMatch() {
           <select value={form.teamBId} onChange={set('teamBId')}>{teams.map((t) => <option key={t.id} value={t.id}>{t.name}</option>)}</select>
         </label>
         <label>Overs per side
-          <input type="number" min="1" max="50" value={form.overs} onChange={set('overs')} required />
+          <input type="number" min="1" max="50" title="Between 1 and 50 overs" value={form.overs} onChange={set('overs')} required />
         </label>
         <label>Venue
           <input value={form.venue} placeholder="random if empty" onChange={set('venue')} />
