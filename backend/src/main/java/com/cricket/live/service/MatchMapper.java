@@ -15,7 +15,7 @@ import java.util.*;
 @Component
 @RequiredArgsConstructor
 public class MatchMapper {
-    private static final DateTimeFormatter TIME = DateTimeFormatter.ofPattern("dd MMM, HH:mm");
+    private static final DateTimeFormatter TIME = DateTimeFormatter.ofPattern("dd MMM yyyy, HH:mm");
 
     private final InningsRepository inningsRepo;
     private final BattingEntryRepository battingRepo;
