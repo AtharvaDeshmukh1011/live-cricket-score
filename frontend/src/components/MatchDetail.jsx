@@ -118,6 +118,13 @@ export default function MatchDetail({ id, update }) {
 
   useEffect(() => { load(); }, [id, update?.updatedAt]);
 
+  useEffect(() => {
+    if (!detail) return;
+    const s = detail.summary;
+    document.title = `${s.teamA.shortName} vs ${s.teamB.shortName} - LiveCricket`;
+    return () => { document.title = 'LiveCricket - Real-time Scores'; };
+  }, [detail]);
+
   if (error && !detail) return <div className="alert">{error}</div>;
   if (!detail) return <p className="muted">Loading match...</p>;
 
