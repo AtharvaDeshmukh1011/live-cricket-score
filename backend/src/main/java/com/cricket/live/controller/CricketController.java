@@ -14,6 +14,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 
@@ -54,6 +55,7 @@ public class CricketController {
 
     @GetMapping("/health")
     public Map<String, Object> health() {
-        return Map.of("status", "OK", "liveMatches", matchService.liveCount(), "subscribers", live.subscribers());
+        return Map.of("status", "OK", "liveMatches", matchService.liveCount(), "subscribers", live.subscribers(),
+                "serverTime", LocalDateTime.now().toString());
     }
 }
