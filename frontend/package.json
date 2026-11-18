@@ -2,6 +2,7 @@
   "name": "live-cricket-frontend",
   "private": true,
   "version": "1.0.0",
+  "description": "React dashboard for the LiveCricket real-time score system",
   "type": "module",
   "scripts": {
     "dev": "vite",
