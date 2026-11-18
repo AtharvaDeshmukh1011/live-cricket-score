@@ -67,6 +67,10 @@ On first start the app seeds 6 teams with 66 players, 2 completed matches, 2 liv
 
 `extra` is one of `NONE, WIDE, NO_BALL, BYE, LEG_BYE`; `dismissal` is one of `BOWLED, CAUGHT, LBW, RUN_OUT, STUMPED`.
 
+## Author
+
+Atharva Deshmukh
+
 ## Project layout
 
 ```
