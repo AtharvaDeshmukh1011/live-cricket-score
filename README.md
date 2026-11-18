@@ -45,6 +45,10 @@ npm run dev        # http://localhost:5173 (proxies /api to :8080)
 
 On first start the app seeds 6 teams with 66 players, 2 completed matches, 2 live matches and 1 upcoming fixture.
 
+## Testing
+
+`mvnw.cmd test` runs `ScoringServiceTest`, which checks runs, wides, strike rotation, wickets, the innings change with the target, invalid deliveries, and that a fully simulated match ends with a result.
+
 ## REST API
 
 | Method & path | Purpose |
