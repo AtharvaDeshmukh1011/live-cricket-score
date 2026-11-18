@@ -32,7 +32,7 @@ public class DataSeeder implements CommandLineRunner {
             {"Hyderabad Hurricanes", "HYD", "#ea580c"}, {"Bengaluru Blasters", "BLR", "#be123c"}};
     private static final String[] FIRST = {"Aarav", "Rohan", "Vikram", "Arjun", "Kabir", "Ishaan", "Dev", "Rahul",
             "Siddharth", "Karan", "Aditya", "Yash", "Nikhil", "Pranav", "Harsh", "Manav", "Aryan", "Varun", "Kunal",
-            "Rishi", "Tanmay", "Sahil", "Ayaan", "Rudra", "Neel", "Parth", "Dhruv", "Shaurya", "Vihaan", "Om"};
+            "Rishi", "Tanmay", "Sahil", "Ayaan", "Rudra", "Neel", "Parth", "Dhruv", "Shaurya", "Vihaan", "Om", "Advait", "Atharva"};
     private static final String[] LAST = {"Sharma", "Patil", "Iyer", "Khan", "Reddy", "Nair", "Singh", "Deshmukh",
             "Kulkarni", "Menon", "Gill", "Pandey", "Joshi", "Rao", "Chauhan", "Bhat", "Shetty", "Verma", "Mishra", "Kapoor"};
     private static final Role[] ROLES = {Role.BATTER, Role.BATTER, Role.BATTER, Role.BATTER, Role.WICKET_KEEPER,
