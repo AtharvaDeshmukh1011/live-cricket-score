@@ -87,7 +87,7 @@ function ScorerPanel({ s, onDone }) {
           Auto simulation
         </label>
       </div>
-      <p className="muted small">Record the next delivery. Pick an extra type first if needed.</p>
+      <p className="muted small">Record the next delivery. Choose an extra type first if the ball was not a normal delivery.</p>
       <div className="seg">
         {EXTRAS.map((x) => (
           <button key={x.v} className={extra === x.v ? 'active' : ''} onClick={() => setExtra(x.v)}>{x.t}</button>
