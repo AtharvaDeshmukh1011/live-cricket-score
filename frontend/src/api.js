@@ -1,5 +1,5 @@
 async function request(path, options = {}) {
-  const res = await fetch(`/api${path}`, { headers: { 'Content-Type': 'application/json' }, ...options });
+  const res = await fetch(`/api${path}`, { headers: { 'Content-Type': 'application/json' }, cache: 'no-store', ...options });
   const body = await res.json().catch(() => null);
   if (!res.ok) throw new Error(body?.error || `Request failed (${res.status})`);
   return body;
