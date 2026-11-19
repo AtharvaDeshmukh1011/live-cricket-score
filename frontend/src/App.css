@@ -173,3 +173,5 @@ td.hl { font-weight: 700; color: #065f46; }
 button:disabled { opacity: 0.55; cursor: not-allowed; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+table { font-variant-numeric: tabular-nums; }
