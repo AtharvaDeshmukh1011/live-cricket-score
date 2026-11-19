@@ -2,3 +2,4 @@
 
 ## 1.0.0
 - Live scoring with Server-Sent Events
+- Ball-by-ball commentary with paging
