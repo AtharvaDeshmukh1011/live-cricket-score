@@ -86,3 +86,7 @@ frontend/src/
   App.jsx       routing + live feed connection
   components/   Dashboard, MatchDetail (scorecard, commentary, scorer console), PlayerStats, NewMatch
 ```
+
+## Troubleshooting
+
+- If port 8080 is busy, set `server.port` in application.properties.
