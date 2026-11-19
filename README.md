@@ -91,3 +91,8 @@ frontend/src/
 
 - If port 8080 is busy, set `server.port` in application.properties.
 - If the dashboard shows no live matches, check that the backend is running.
+
+## Future work
+
+- WebSocket option alongside SSE
+- Login for scorers
