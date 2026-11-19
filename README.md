@@ -90,3 +90,4 @@ frontend/src/
 ## Troubleshooting
 
 - If port 8080 is busy, set `server.port` in application.properties.
+- If the dashboard shows no live matches, check that the backend is running.
