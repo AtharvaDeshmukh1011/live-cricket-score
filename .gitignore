@@ -7,3 +7,6 @@ dist/
 .vscode/
 
 *.iml
+
+.env
+.env.local
