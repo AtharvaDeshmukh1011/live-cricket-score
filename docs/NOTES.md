@@ -5,3 +5,4 @@
 - A maiden is an over with no runs.
 - Strike changes on odd runs.
 - Strike changes at the end of an over.
+- A bowler can bowl at most a fifth of the overs.
