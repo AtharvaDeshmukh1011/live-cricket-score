@@ -11,3 +11,4 @@
 - SSE sends one event per ball.
 - The dashboard sorts live matches first.
 - Commentary is shown newest first.
+- The leaderboard can sort by sixes.
