@@ -7,3 +7,4 @@
 - Strike changes at the end of an over.
 - A bowler can bowl at most a fifth of the overs.
 - The target is first innings runs plus one.
+- A tie is possible in the second innings.
