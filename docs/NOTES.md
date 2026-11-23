@@ -4,3 +4,4 @@
 - Wides and no-balls add one run.
 - A maiden is an over with no runs.
 - Strike changes on odd runs.
+- Strike changes at the end of an over.
