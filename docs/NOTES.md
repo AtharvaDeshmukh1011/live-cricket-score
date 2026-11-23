@@ -16,3 +16,4 @@
 - The H2 profile needs no setup.
 - MySQL is the default database.
 - Teams have 11 players each.
+- The seed data has 6 teams.
