@@ -6,3 +6,4 @@
 - Strike changes on odd runs.
 - Strike changes at the end of an over.
 - A bowler can bowl at most a fifth of the overs.
+- The target is first innings runs plus one.
