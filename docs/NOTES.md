@@ -13,3 +13,4 @@
 - Commentary is shown newest first.
 - The leaderboard can sort by sixes.
 - Autoplay can be turned off per match.
+- The H2 profile needs no setup.
