@@ -8,3 +8,4 @@
 - A bowler can bowl at most a fifth of the overs.
 - The target is first innings runs plus one.
 - A tie is possible in the second innings.
+- SSE sends one event per ball.
