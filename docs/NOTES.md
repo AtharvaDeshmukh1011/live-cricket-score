@@ -10,3 +10,4 @@
 - A tie is possible in the second innings.
 - SSE sends one event per ball.
 - The dashboard sorts live matches first.
+- Commentary is shown newest first.
