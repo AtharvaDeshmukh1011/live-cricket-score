@@ -3,3 +3,4 @@
 - Each ball is one database row.
 - Wides and no-balls add one run.
 - A maiden is an over with no runs.
+- Strike changes on odd runs.
